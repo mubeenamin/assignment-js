@@ -1,12 +1,12 @@
 const friends = ["Ahmed", "Bilal", "furqan", "Arslan", "Waheed"];
 
-let txt ="";
+		let txt ="";
 
-friends.forEach(myFunction);
-console.log(txt+ "you are the best");
+		friends.forEach(myFunction);
+		console.log(txt);
 
 
-function myFunction(value){
+		function myFunction(value){
 
-    txt += value + "<br>";
-};
+		txt += value+ "you are the best \n";
+		};
