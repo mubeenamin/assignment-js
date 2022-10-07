@@ -1,2 +1,2 @@
-const name = "\t Mubeen \nAmeen";
+const name = "\t Mubeen \n Ameen";
 console.log(name);
