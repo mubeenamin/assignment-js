@@ -4,6 +4,10 @@ const guest = ["Waheed", "Afzal", "Ahmed", "Ikram"];
 		const msg=" is not attending dinner";
 		guest.push("Adil");
 		console.log(removeGuest+msg);
+
+
+
+		
 		let txt ="";
 
 		guest.forEach(myFunction);
