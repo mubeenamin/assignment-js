@@ -1,12 +1,12 @@
 const guest = ["Waheed", "Afzal", "Ahmed", "Ikram"];
 
-		let txt ="";
+let txt = "";
 
-		guest.forEach(myFunction);
-		console.log(txt);
+guest.forEach(myFunction);
+console.log(txt);
 
 
-		function myFunction(value){
+function myFunction(value) {
 
-		txt += value+" I would like you invite to dinner \n";
-		};
+	txt += value + " I would like you invite to dinner \n";
+};

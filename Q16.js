@@ -1,19 +1,19 @@
 const guest = ["Waheed", "Afzal", "Ahmed", "Ikram"];
 
-        
-		const msg=" I found a bigger dinner table";
-		guest.unshift("Aslam");
-        guest.splice(2,0, 'Aqib');
-        guest.push("Mubeen");
 
-		console.log(msg);
-		let txt ="";
+const msg = " I found a bigger dinner table";
+guest.unshift("Aslam");
+guest.splice(2, 0, 'Aqib');
+guest.push("Mubeen");
 
-		guest.forEach(myFunction);
-		console.log(txt);
-        
+console.log(msg);
+let txt = "";
 
-		function myFunction(value){
+guest.forEach(myFunction);
+console.log(txt);
 
-		txt += value+" I would like you invite to dinner \n";
-		};
+
+function myFunction(value) {
+
+	txt += value + " I would like you invite to dinner \n";
+};
