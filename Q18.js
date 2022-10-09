@@ -1,3 +1,4 @@
+// Array sorting and reversing
 let favPlaces = ["Madina", "Lahore", "Jaddah", "Istanbul"];
 const arrNew = favPlaces.slice(0).sort();
 console.log(arrNew);
